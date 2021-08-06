@@ -13,6 +13,26 @@
 		11733DE626BA961300E3EE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733DD626BA961300E3EE86 /* ContentView.swift */; };
 		11733DE726BA961300E3EE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11733DD726BA961300E3EE86 /* Assets.xcassets */; };
 		11733DE826BA961300E3EE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11733DD726BA961300E3EE86 /* Assets.xcassets */; };
+		11733DF426BA9CB200E3EE86 /* task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11733DF226BA9CB200E3EE86 /* task.xcdatamodeld */; };
+		11733DF526BA9CB200E3EE86 /* task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11733DF226BA9CB200E3EE86 /* task.xcdatamodeld */; };
+		11733DFA26BA9D5C00E3EE86 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733DF926BA9D5C00E3EE86 /* Persistance.swift */; };
+		11733DFB26BA9D5C00E3EE86 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733DF926BA9D5C00E3EE86 /* Persistance.swift */; };
+		11733E0126BA9E4D00E3EE86 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0026BA9E4D00E3EE86 /* TaskRow.swift */; };
+		11733E0326BA9F6500E3EE86 /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0226BA9F6500E3EE86 /* HeadlineView.swift */; };
+		11733E0526BAA07900E3EE86 /* VisualBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0426BAA07900E3EE86 /* VisualBlur.swift */; };
+		11733E0726BAA67E00E3EE86 /* TasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0626BAA67E00E3EE86 /* TasksList.swift */; };
+		11733E0A26BAA86700E3EE86 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0926BAA86700E3EE86 /* Extensions.swift */; };
+		11733E0C26BAAA6900E3EE86 /* AddTaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0B26BAAA6900E3EE86 /* AddTaskForm.swift */; };
+		11733E1026BABD1400E3EE86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0F26BABD1400E3EE86 /* Settings.swift */; };
+		11733E1126BABD1400E3EE86 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0F26BABD1400E3EE86 /* Settings.swift */; };
+		11733E1326BAC18500E3EE86 /* EditTaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E1226BAC18500E3EE86 /* EditTaskForm.swift */; };
+		11733E1426BAC18500E3EE86 /* EditTaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E1226BAC18500E3EE86 /* EditTaskForm.swift */; };
+		11733E1526BAC69700E3EE86 /* HeadlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0226BA9F6500E3EE86 /* HeadlineView.swift */; };
+		11733E1626BAC6AD00E3EE86 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0926BAA86700E3EE86 /* Extensions.swift */; };
+		11733E1726BAC6AF00E3EE86 /* VisualBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0426BAA07900E3EE86 /* VisualBlur.swift */; };
+		11733E1826BAC6B500E3EE86 /* AddTaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0B26BAAA6900E3EE86 /* AddTaskForm.swift */; };
+		11733E1926BAC6B800E3EE86 /* TasksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0626BAA67E00E3EE86 /* TasksList.swift */; };
+		11733E1A26BAC6BB00E3EE86 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11733E0026BA9E4D00E3EE86 /* TaskRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +41,17 @@
 		11733DD726BA961300E3EE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11733DDC26BA961300E3EE86 /* AnyTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11733DE226BA961300E3EE86 /* AnyTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11733DF126BA962B00E3EE86 /* AnyTask--macOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AnyTask--macOS--Info.plist"; sourceTree = "<group>"; };
+		11733DF326BA9CB200E3EE86 /* task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = task.xcdatamodel; sourceTree = "<group>"; };
+		11733DF926BA9D5C00E3EE86 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		11733E0026BA9E4D00E3EE86 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		11733E0226BA9F6500E3EE86 /* HeadlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineView.swift; sourceTree = "<group>"; };
+		11733E0426BAA07900E3EE86 /* VisualBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBlur.swift; sourceTree = "<group>"; };
+		11733E0626BAA67E00E3EE86 /* TasksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksList.swift; sourceTree = "<group>"; };
+		11733E0926BAA86700E3EE86 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		11733E0B26BAAA6900E3EE86 /* AddTaskForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskForm.swift; sourceTree = "<group>"; };
+		11733E0F26BABD1400E3EE86 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		11733E1226BAC18500E3EE86 /* EditTaskForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +75,7 @@
 		11733DCF26BA961300E3EE86 = {
 			isa = PBXGroup;
 			children = (
+				11733DF126BA962B00E3EE86 /* AnyTask--macOS--Info.plist */,
 				11733DD426BA961300E3EE86 /* Shared */,
 				11733DDD26BA961300E3EE86 /* Products */,
 			);
@@ -52,9 +84,11 @@
 		11733DD426BA961300E3EE86 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				11733DD526BA961300E3EE86 /* AnyTaskApp.swift */,
-				11733DD626BA961300E3EE86 /* ContentView.swift */,
-				11733DD726BA961300E3EE86 /* Assets.xcassets */,
+				11733DFE26BA9DED00E3EE86 /* Application */,
+				11733DFF26BA9E3F00E3EE86 /* Views */,
+				11733E0826BAA70200E3EE86 /* Components */,
+				11733DFC26BA9DC100E3EE86 /* Model */,
+				11733DFD26BA9DCD00E3EE86 /* Resources */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -66,6 +100,54 @@
 				11733DE226BA961300E3EE86 /* AnyTask.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		11733DFC26BA9DC100E3EE86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11733DF926BA9D5C00E3EE86 /* Persistance.swift */,
+				11733DF226BA9CB200E3EE86 /* task.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11733DFD26BA9DCD00E3EE86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11733DD726BA961300E3EE86 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11733DFE26BA9DED00E3EE86 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				11733DD526BA961300E3EE86 /* AnyTaskApp.swift */,
+				11733DD626BA961300E3EE86 /* ContentView.swift */,
+				11733E0F26BABD1400E3EE86 /* Settings.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		11733DFF26BA9E3F00E3EE86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11733E0026BA9E4D00E3EE86 /* TaskRow.swift */,
+				11733E0626BAA67E00E3EE86 /* TasksList.swift */,
+				11733E0B26BAAA6900E3EE86 /* AddTaskForm.swift */,
+				11733E1226BAC18500E3EE86 /* EditTaskForm.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11733E0826BAA70200E3EE86 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				11733E0226BA9F6500E3EE86 /* HeadlineView.swift */,
+				11733E0426BAA07900E3EE86 /* VisualBlur.swift */,
+				11733E0926BAA86700E3EE86 /* Extensions.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +196,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Milad Golchinpour";
 				TargetAttributes = {
 					11733DDB26BA961300E3EE86 = {
 						CreatedOnToolsVersion = 13.0;
@@ -166,7 +249,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11733E0126BA9E4D00E3EE86 /* TaskRow.swift in Sources */,
+				11733E0A26BAA86700E3EE86 /* Extensions.swift in Sources */,
+				11733E1326BAC18500E3EE86 /* EditTaskForm.swift in Sources */,
 				11733DE526BA961300E3EE86 /* ContentView.swift in Sources */,
+				11733E0326BA9F6500E3EE86 /* HeadlineView.swift in Sources */,
+				11733DFA26BA9D5C00E3EE86 /* Persistance.swift in Sources */,
+				11733E0726BAA67E00E3EE86 /* TasksList.swift in Sources */,
+				11733E0C26BAAA6900E3EE86 /* AddTaskForm.swift in Sources */,
+				11733DF426BA9CB200E3EE86 /* task.xcdatamodeld in Sources */,
+				11733E0526BAA07900E3EE86 /* VisualBlur.swift in Sources */,
+				11733E1026BABD1400E3EE86 /* Settings.swift in Sources */,
 				11733DE326BA961300E3EE86 /* AnyTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,7 +269,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				11733DE626BA961300E3EE86 /* ContentView.swift in Sources */,
+				11733DFB26BA9D5C00E3EE86 /* Persistance.swift in Sources */,
+				11733E1526BAC69700E3EE86 /* HeadlineView.swift in Sources */,
+				11733E1A26BAC6BB00E3EE86 /* TaskRow.swift in Sources */,
+				11733E1626BAC6AD00E3EE86 /* Extensions.swift in Sources */,
+				11733E1426BAC18500E3EE86 /* EditTaskForm.swift in Sources */,
+				11733DF526BA9CB200E3EE86 /* task.xcdatamodeld in Sources */,
+				11733E1826BAC6B500E3EE86 /* AddTaskForm.swift in Sources */,
 				11733DE426BA961300E3EE86 /* AnyTaskApp.swift in Sources */,
+				11733E1726BAC6AF00E3EE86 /* VisualBlur.swift in Sources */,
+				11733E1926BAC6B800E3EE86 /* TasksList.swift in Sources */,
+				11733E1126BABD1400E3EE86 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +472,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnyTask--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,6 +502,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnyTask--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +549,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11733DF226BA9CB200E3EE86 /* task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11733DF326BA9CB200E3EE86 /* task.xcdatamodel */,
+			);
+			currentVersion = 11733DF326BA9CB200E3EE86 /* task.xcdatamodel */;
+			path = task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 11733DD026BA961300E3EE86 /* Project object */;
 }
