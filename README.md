@@ -1,4 +1,5 @@
-# AnyTask
+# AnyTask ![status](https://img.shields.io/badge/status-stop%20working-red.svg)
+
 Multiplatform task management app with CoreData\
 With beginner features: Create, Read, Update and Delete (CRUD) for tasks\
 I focused on basic CoreData in this application\
